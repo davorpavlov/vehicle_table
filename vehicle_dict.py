@@ -16,4 +16,4 @@ print("ID  | Tip             | Proizvođač      | Registarska oznaka  | Godina 
 print("-------------------------------------------------------------------------------------------------------")
 
 for vehicle in vehicles:
-    print(f"{vehicle['ID']:2}  | {vehicle['Tip']:15} | {vehicle['Proizvođač']:15} | {vehicle['Registarska oznaka']:19} | {vehicle['Godina prve registracije']:24} | {vehicle['Cijena u EUR']:10}")
+    print(f"{vehicle['ID']:2}  | {vehicle['Tip']:15} | {vehicle['Proizvođač']:15} | {vehicle['Registarska oznaka']:19} | {vehicle['Godina prve registracije']:24} | {vehicle['Cijena u EUR']:9}")
