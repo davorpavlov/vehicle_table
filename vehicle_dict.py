@@ -18,3 +18,9 @@ print("-------------------------------------------------------------------------
 for vehicle in vehicles:
     print(f"{vehicle['ID']:2}  | {vehicle['Tip']:15} | {vehicle['Proizvođač']:15} | {vehicle['Registarska oznaka']:19} | {vehicle['Godina prve registracije']:24} | {vehicle['Cijena u EUR']:9}")
 
+# While petlja:
+# i = 0
+# while i < len(vehicles):
+#     vehicle = vehicles[i]
+#     print(f"{vehicle['ID']:2} | {vehicle['Tip']:15} | {vehicle['Proizvođač']:15} | {vehicle['Registarska oznaka']:19} | {vehicle['Godina prve registracije']:24} | {vehicle['Cijena u EUR']:9}")
+#     i += 1
